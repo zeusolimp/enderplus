@@ -42,7 +42,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-30 px-30 bg-gray-50">
+    <section className="pt-20 pb-16 px-[50px] bg-gray-50">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
