@@ -26,14 +26,13 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-16 px-4 bg-white">
+    <section className="pt-30 pb-30 px-30 bg-white">
       <div className="container mx-auto">
         {/* Mapea el array de características para crear secciones con diseño alternado */}
         {features.map((feature, index) => (
           <div 
             key={index} 
-            className={`flex flex-col md:flex-row items-center gap-8 mb-16 ${
-              // Invierte la dirección del flex para elementos impares en desktop
+            className={`flex flex-col md:flex-row items-center gap-8 md:gap-30 mb-30 ${
               index % 2 !== 0 ? 'md:flex-row-reverse' : ''
             }`}
           >

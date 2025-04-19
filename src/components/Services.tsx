@@ -42,9 +42,9 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-30 px-4 bg-gray-50">
+    <section className="py-30 px-30 bg-gray-50">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 relative pb-16">
               <div className="flex flex-col items-center text-center">
