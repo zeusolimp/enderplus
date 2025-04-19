@@ -45,7 +45,7 @@ const NavBar = () => {
           <li>
             <a
               href="#home"
-              className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded transition duration-300"
+              className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Home
             </a>
@@ -53,7 +53,7 @@ const NavBar = () => {
           <li>
             <a
               href="#about"
-              className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded transition duration-300"
+              className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Sobre Nós
             </a>
@@ -61,7 +61,7 @@ const NavBar = () => {
           <li>
             <a
               href="#services"
-              className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded transition duration-300"
+              className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Serviços
             </a>
@@ -69,7 +69,7 @@ const NavBar = () => {
           <li>
             <a
               href="#blog"
-              className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded transition duration-300"
+              className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Blog
             </a>
@@ -77,7 +77,7 @@ const NavBar = () => {
           <li>
             <a
               href="#contact"
-              className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded transition duration-300"
+              className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Contacto
             </a>
@@ -96,7 +96,7 @@ const NavBar = () => {
         <div
           className={`${
             isScrolled ? 'bg-white text-gray-800' : 'bg-white text-gray-800'
-          } w-64 h-full p-4 shadow-lg absolute top-0 right-0 transform transition-transform duration-300 ease-in-out`}
+          } w-64 h-full p-4 shadow-lg absolute top-0 right-0 transform transition-transform ease-in-out`}
           style={{ transform: isMenuOpen ? 'translateX(0)' : 'translateX(100%)' }}
           onClick={(e) => e.stopPropagation()} // Evitar que el menú se cierre al hacer clic dentro
         >
@@ -104,7 +104,7 @@ const NavBar = () => {
             <li>
               <a
                 href="#home"
-                className="block hover:bg-blue-900 hover:text-white px-3 py-2 rounded transition duration-300"
+                className="block hover:bg-blue-900 hover:text-white px-3 py-2 rounded"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
@@ -113,7 +113,7 @@ const NavBar = () => {
             <li>
               <a
                 href="#about"
-                className="block hover:bg-blue-900 hover:text-white px-3 py-2 rounded transition duration-300"
+                className="block hover:bg-blue-900 hover:text-white px-3 py-2 rounded"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Sobre Nós
@@ -122,7 +122,7 @@ const NavBar = () => {
             <li>
               <a
                 href="#services"
-                className="block hover:bg-blue-900 hover:text-white px-3 py-2 rounded transition duration-300"
+                className="block hover:bg-blue-900 hover:text-white px-3 py-2 rounded"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Serviços
@@ -131,7 +131,7 @@ const NavBar = () => {
             <li>
               <a
                 href="#blog"
-                className="block hover:bg-blue-900 hover:text-white px-3 py-2 rounded transition duration-300"
+                className="block hover:bg-blue-900 hover:text-white px-3 py-2 rounded"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Blog
@@ -140,7 +140,7 @@ const NavBar = () => {
             <li>
               <a
                 href="#contact"
-                className="block hover:bg-blue-900 hover:text-white px-3 py-2 rounded transition duration-300"
+                className="block hover:bg-blue-900 hover:text-white px-3 py-2 rounded"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contacto
