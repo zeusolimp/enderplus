@@ -7,7 +7,7 @@ const ContactForm = () => {
   ];
 
   return (
-    <section className="pt-[10px] px-[50px] pb-[80px] bg-white">
+    <section className="pt-[10px] px-[50px] pb-[200px] bg-white">
       <div className="container mx-auto max-w-2xl">
         <h2 className="text-3xl font-bold mb-8 text-center">Contacte connosco</h2>
         <form className="space-y-6">
