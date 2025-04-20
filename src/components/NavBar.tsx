@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,44 +42,44 @@ const NavBar = () => {
         {/* Menú principal (visible en pantallas grandes) */}
         <ul className="hidden md:flex space-x-6">
           <li>
-            <a
+            <Link
               href="/"
               className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/nos"
               className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Sobre Nós
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/servicos"
               className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Serviços
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/blog"
               className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Blog
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/contacto"
               className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Contacto
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -97,49 +98,49 @@ const NavBar = () => {
         >
           <ul className="space-y-2 flex flex-col-reverse h-full justify-end pb-[30px]">
             <li>
-              <a
-                href="#contact"
+              <Link
+                href="/contacto"
                 className="block hover:bg-gray-800 hover:text-white px-3 py-3 rounded text-center text-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contacto
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#blog"
+              <Link
+                href="/blog"
                 className="block hover:bg-gray-800 hover:text-white px-3 py-4 rounded text-center text-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Blog
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#services"
+              <Link
+                href="/servicos"
                 className="block hover:bg-gray-800 hover:text-white px-3 py-4 rounded text-center text-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Serviços
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#about"
+              <Link
+                href="/nos"
                 className="block hover:bg-gray-800 hover:text-white px-3 py-4 rounded text-center text-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Sobre Nós
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#home"
+              <Link
+                href="/"
                 className="block hover:bg-gray-800 hover:text-white px-3 py-4 rounded text-center text-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

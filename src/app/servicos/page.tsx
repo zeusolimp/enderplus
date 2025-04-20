@@ -1,9 +1,8 @@
 
 import ButtonTop from "@/components/ButtonTop";
-import ContactForm from "@/components/ContactForm";
-import Features from "@/components/Features";
+
 import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
+
 import NavBar from "@/components/NavBar";
 import Image from "next/image";
 
@@ -32,8 +31,8 @@ export default function Servicos() {
   ];
 
   const clients = [
-    "/client1.png", "/client2.png", "/client3.png",
-    "/client4.png", "/client5.png", "/client6.png"
+    "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg", "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg", "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg",
+    "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg", "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg", "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg"
   ];
 
   return (
