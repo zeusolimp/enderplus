@@ -42,7 +42,7 @@ const NavBar = () => {
         <ul className="hidden md:flex space-x-6">
           <li>
             <a
-              href="#home"
+              href="/"
               className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Home
@@ -50,7 +50,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              href="#about"
+              href="/nos"
               className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Sobre Nós
@@ -58,7 +58,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              href="#services"
+              href="/servicos"
               className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Serviços
@@ -66,7 +66,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              href="#blog"
+              href="/blog"
               className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Blog
@@ -74,7 +74,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              href="#contact"
+              href="/contacto"
               className="hover:bg-gray-800 hover:text-white px-3 py-2 rounded"
             >
               Contacto

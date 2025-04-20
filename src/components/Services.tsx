@@ -42,17 +42,17 @@ const Services = () => {
   ];
 
   return (
-    <section className="pt-20 pb-16 px-[50px] bg-gray-50">
+    <section className="py-25 px-25 bg-white">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 relative pb-16">
               <div className="flex flex-col items-center text-center">
-                <div className="text-grey-900">
+                <div className="text-gray-900">
                   {service.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
-                <p className="text-gray-600 mb-6">{service.description}</p>
+                <p className="text-gray-800 mb-6">{service.description}</p>
                 <button className="absolute bottom-[15px] left-[15px] right-[15px] px-6 py-2 bg-gray-800 hover:bg-gray-600 text-white rounded-lg shadow-md transition-transform hover:scale-105">
                   Saber mais
                 </button>

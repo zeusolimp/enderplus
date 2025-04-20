@@ -26,7 +26,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="pt-20 pb-16 px-[50px] bg-white">
+    <section className="pt-25 pb-1 bg-gray-100">
       <div className="container mx-auto">
         {/* Mapea el array de características para crear secciones con diseño alternado */}
         {features.map((feature, index) => (
